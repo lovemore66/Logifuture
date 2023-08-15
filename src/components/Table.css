@@ -1,0 +1,127 @@
+.wrapper {
+  display: inline-block;
+  border: 3px solid black;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  width: 24rem;
+  margin: 0 auto 20px;
+}
+
+.flex-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.btn {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0;
+}
+button {
+  background: none;
+  border: 2px solid black;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 10px;
+}
+table {
+  border: 3px solid black;
+}
+.wrapper table {
+    border-style: none;
+}
+
+tbody {
+  cursor: pointer;
+}
+
+table, td {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table-content {
+  overflow-y: scroll;
+  border-collapse: collapse;
+  display: block;
+}
+
+th {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: .6rem;
+    font-weight: bold;
+    text-transform: Normal;
+    font-family: sans-serif;
+    min-width: 8rem;
+    box-sizing: border-box;
+    
+}
+
+td {
+    text-align: center;
+    font-size: .6rem;
+    font-weight: normal;
+    text-transform: Normal;
+    font-family: sans-serif;
+    min-width: 8rem;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.tr {
+  height: 44px;
+  max-height: 39px;
+}
+
+thead tr:first-child {
+  border-bottom: 1.5px solid black;
+}
+
+thead th {
+  border-right: 2px solid black;
+}
+
+thead th:last-child {
+  border-right: none;
+}
+
+.table-content::-webkit-scrollbar {
+  width: 0.0em; 
+  background-color: transparent;
+}
+
+.table-content::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.table-content::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.table-content {
+  overflow: auto;
+  scrollbar-width: none; 
+}
+
+@media screen and (max-width: 768px){
+  th {
+    min-width: 9rem;
+}
+
+td {
+    min-width: 9rem;
+}
+section {
+  width: 100%;
+}
+}

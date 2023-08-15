@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Table from './components/Table';
+import { faker } from '@faker-js/faker';
+import logo from './logo.svg'
 
 function App() {
+  const people = new Array(100000).fill(true).map((val, id) => ({
+    id: id,
+    firstName: faker.person.firstName(),
+    lastName: faker.person.lastName(),
+  }));
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='logo'>
+        <img src ={logo} alt='Logo'/>
+      </div>
+      <Table rows={people} />
+      <p>Records: {people.length}</p>
     </div>
   );
 }
 
 export default App;
+
+
+
