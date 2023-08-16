@@ -2,6 +2,7 @@
   display: inline-block;
   border: 3px solid black;
 }
+
 section {
   display: flex;
   justify-content: space-between;
@@ -35,14 +36,15 @@ table {
   border: 3px solid black;
 }
 .wrapper table {
-    border-style: none;
+  border-style: none;
 }
 
 tbody {
   cursor: pointer;
 }
 
-table, td {
+table,
+td {
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   border-collapse: collapse;
@@ -55,27 +57,26 @@ table, td {
 }
 
 th {
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    font-size: .6rem;
-    font-weight: bold;
-    text-transform: Normal;
-    font-family: sans-serif;
-    min-width: 8rem;
-    box-sizing: border-box;
-    
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-transform: Normal;
+  font-family: sans-serif;
+  min-width: 8rem;
+  box-sizing: border-box;
 }
 
 td {
-    text-align: center;
-    font-size: .6rem;
-    font-weight: normal;
-    text-transform: Normal;
-    font-family: sans-serif;
-    min-width: 8rem;
-    box-sizing: border-box;
-    color: #333;
+  text-align: center;
+  font-size: 0.6rem;
+  font-weight: normal;
+  text-transform: Normal;
+  font-family: sans-serif;
+  min-width: 8rem;
+  box-sizing: border-box;
+  color: #333;
 }
 
 .tr {
@@ -96,7 +97,7 @@ thead th:last-child {
 }
 
 .table-content::-webkit-scrollbar {
-  width: 0.0em; 
+  width: 0em;
   background-color: transparent;
 }
 
@@ -110,18 +111,45 @@ thead th:last-child {
 
 .table-content {
   overflow: auto;
-  scrollbar-width: none; 
+  scrollbar-width: none;
 }
 
-@media screen and (max-width: 768px){
+.bottom-hidden {
+  background-color: tra;
+  /* position: relative;
+  z-index: -20; */
+}
+
+.scroll {
+  width: 24rem;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: right;
+}
+
+.scroll img {
+  height: 35px;
+  margin-top: 25px;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+section img {
+  height: 40px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
   th {
-    min-width: 9rem;
-}
+    min-width: 10rem;
+  }
 
-td {
-    min-width: 9rem;
-}
-section {
-  width: 100%;
-}
+  td {
+    min-width: 10rem;
+  }
+  section {
+    width: 100%;
+  }
 }

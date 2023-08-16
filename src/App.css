@@ -2,10 +2,14 @@
   text-align: center;
 }
 
+.App p {
+  font-weight: bold;
+}
+
 .logo {
   margin: 40px auto 20px;
   border-bottom: 1.4px solid #cccc;
-  padding-bottom: 4px;
+  padding-bottom: 8px;
   max-width: 600px;
   text-align: left;
 }
@@ -14,9 +18,11 @@
   width: 150px;
   cursor: pointer;
 }
+.users {
+  margin-top: -45px;
+}
 
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .App {
     padding: 30px;
   }

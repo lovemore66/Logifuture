@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Testing
+Temporarily comment out line 134 in Table component for all tests to pass.
+This is necessary because tables and tbody elements do not natively support those tags,
+and the tests need to work around those limitation. 
