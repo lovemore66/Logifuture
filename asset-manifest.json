@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Logifuture/static/css/main.56f8aa50.css",
-    "main.js": "/Logifuture/static/js/main.03209717.js",
+    "main.css": "/Logifuture/static/css/main.3fb56a6f.css",
+    "main.js": "/Logifuture/static/js/main.7d94ad2e.js",
     "static/js/787.0ce8d581.chunk.js": "/Logifuture/static/js/787.0ce8d581.chunk.js",
     "static/media/logo.svg": "/Logifuture/static/media/logo.8fa5bb7c2d3640fbc43cfeaf896b8046.svg",
     "index.html": "/Logifuture/index.html",
-    "main.56f8aa50.css.map": "/Logifuture/static/css/main.56f8aa50.css.map",
-    "main.03209717.js.map": "/Logifuture/static/js/main.03209717.js.map",
+    "main.3fb56a6f.css.map": "/Logifuture/static/css/main.3fb56a6f.css.map",
+    "main.7d94ad2e.js.map": "/Logifuture/static/js/main.7d94ad2e.js.map",
     "787.0ce8d581.chunk.js.map": "/Logifuture/static/js/787.0ce8d581.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56f8aa50.css",
-    "static/js/main.03209717.js"
+    "static/css/main.3fb56a6f.css",
+    "static/js/main.7d94ad2e.js"
   ]
 }
